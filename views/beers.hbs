@@ -1,8 +1,5 @@
-<div>
+<div class = "container-beer">
   {{#each beersFromApi}}
-    <h3>{{ name }}</h3>
-  <img width="200" src="{{ image_url }}" alt="{{ name }}"/>
-  <p>Description: {{ description }}</p>
-  <p>Tag Line: {{ tagline }}</p>
+  {{>beerpartial this}}
   {{/each}}
 </div>
