@@ -23,7 +23,7 @@ nav {
   
 .navli {
     float: left;
-    padding-left: 20px;
+    padding-left: 15px;
     list-style-type: none;
   }
 
@@ -32,7 +32,7 @@ nav {
     display: flex;
     color: #f7f9f9;
     text-align: center;
-    padding: 15px 6px;
+    padding: 6px 6px;
     text-decoration: none;
   }
 
@@ -43,6 +43,7 @@ nav {
 
 body {
     background-color: #bfbfbf;
+    margin: 0px;
 }
 
 footer {
@@ -51,5 +52,19 @@ footer {
     padding: 15px 6px;
 }
 
+.mainbeer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
 
 
+
+.mainul {
+    display: block;
+    padding-left: 550px;
+    list-style-type: none;
+}
